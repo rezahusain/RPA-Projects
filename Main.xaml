@@ -1,0 +1,141 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,866.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Object of sequence: Go onto AMC Theater website, scrape all the current movies (title, time, rating, release date), and then put that information into an excel sheet." DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="587.2,801.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: New Movies, Theaters Near You, Movie Tickets, Showtimes, Movie Trailers, Movies " sap:VirtualizedContainerService.HintSize="524.8,645.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="996e2de4-7d11-4194-8fe3-7309710cccec" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,428.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd:DataTable" Name="DT_MovieInfo" />
+              <Variable x:TypeArguments="x:String" Name="DT_Text" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[DT_MovieInfo]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Title' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Time' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Rating' ReferenceName='Column2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='ReleaseDate' ReferenceName='Column3'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='fulltext'&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' idx='3' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="996e2de4-7d11-4194-8fe3-7309710cccec" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="171, 372, 1575, 3440" DesignTimeScaleFactor="1.25" FriendlyName="'FILTER BY'" FullSelectorArgument="&lt;webctrl class='theatre-movies-index' parentid='react-container' tag='DIV' /&gt;" Guid="02745230-ba75-43f8-bf6d-b637e52b318a" InformativeScreenshot="c42b2a67b6ded499f34daa9946c39f47.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Movies, Theaters Near You, Movie Tickets, Showtimes, Movie Trailers, Movies in Theaters' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:WriteRange AddHeaders="False" DataTable="[DT_MovieInfo]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="Movies.xlsx" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="b55ddd0afaf253fb88c3de74ba26c33f.jpg" Selector="&lt;html app='chrome.exe' title='New Movies, Theaters Near You, Movie Tickets, Showtimes, Movie Trailers, Movies in Theaters' /&gt;" Title="New Movies, Theaters Near You, Movie Tickets, Showtimes, Movie Trailers, Movies in Theaters" Url="https://www.amctheatres.com/movies" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
